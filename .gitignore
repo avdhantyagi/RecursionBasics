@@ -1,2 +1,4 @@
 .vscode/*
 testinpython.py
+test.cpp
+.gitignore
