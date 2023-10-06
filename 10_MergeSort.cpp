@@ -29,12 +29,9 @@ void merge(int arr[], int start, int mid, int end){
         temp[k++] = arr[j++];
     }
     
-    printArr(temp,end - start + 1,"temp");
-    printArr(arr,end+1," ");
     for(int i = start;i <=end;i++){
         arr[i] = temp[i-start];
     }
-    printArr(arr,end+1,"after merge");
 }
 
 void mergeSort(int arr[], int start, int end){
